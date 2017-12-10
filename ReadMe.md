@@ -36,6 +36,10 @@ The re route to the main page is inside index.php
 #Programming Languages Used:        
     PHP for the backend
     Javascript for the Front End.
+
+#Object Oriented Design Pattern Used
+       Factory Method    
+
     
 #Folders    
 src/html/
@@ -53,7 +57,22 @@ src/server/
     
         All backend Code
         
-                
-
-
+        
+#Module Structure:
+            
+   #Controller
+    
+        All End points that can be levereage in the front end, through
+        Restful fashion
    
+   #Factory
+        Factory classess for all the Class Manager
+                 
+                
+   #Manager
+        All the manager classes
+
+   #Module
+   
+        Contains all the modules, modules connect the Controllers with the Manger
+        
