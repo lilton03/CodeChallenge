@@ -33,8 +33,27 @@ The re route to the main page is inside index.php
     {81c} and enter. After that your username will be set to 'Doe' 
     when posting comments or replies.
     
+#Programming Languages Used:        
+    PHP for the backend
+    Javascript for the Front End.
     
-
+#Folders    
+src/html/
+        
+        All front end files
+        
+src/html/module/
+        
+       Front End Code
+       
+               
+        
+        
+src/server/
+    
+        All backend Code
+        
+                
 
 
    
