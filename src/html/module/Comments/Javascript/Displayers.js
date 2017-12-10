@@ -113,7 +113,11 @@ function display_view_replies_button(id){
     button.style.display='';
 }
 
-
-
+/*Post character Counter*/
+function remaining_characters(elem) {
+    var length=elem.value.length;
+    var counter = document.getElementById('post_counter');
+    counter.innerText=1000-length;
+}
 
 

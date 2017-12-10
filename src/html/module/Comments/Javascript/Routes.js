@@ -59,11 +59,7 @@ function get_child_comments(parentId) {
 }
 
 /*Route to register a user name*/
-function setName(){
-    var name=document.getElementById('name').value;
-    name=name.trim();
-    if(name.length>0 && name.length<50) {
-        console.log(name.length);
+function userNameSet(name){
         $.post(base_url + 'server/Users/Controller/UsersController.php',
             {
                 'function': 'setOrGetNameController',
@@ -82,9 +78,6 @@ function setName(){
                 else
                     alert('User Name is Already in use, or you have entered an incorrect hash name');
             })
-    }
-    else
-        alert('Username length must be greater than 0 or less than 50');
 }
 
 

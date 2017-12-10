@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 10, 2017 at 07:44 AM
+-- Generation Time: Dec 10, 2017 at 11:30 AM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -43,7 +43,7 @@ CREATE TABLE `user_comments` (
 --
 
 INSERT INTO `user_comments` (`id`, `comment_data`, `comment_user`, `comment_time`, `parent_comment`, `children`, `comment_level`) VALUES
-(178, 'Hi :) Thanks for taking the time, reviewing my submission', 36, '2017-12-09 23:29:50', 0, 1, 0);
+(193, 'Hi Thanks for reviewing my submission.', 74, '2017-12-10 03:23:44', 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -62,7 +62,7 @@ CREATE TABLE `user_names` (
 --
 
 INSERT INTO `user_names` (`id`, `name`, `hash_name`) VALUES
-(36, 'lilton', '8dc');
+(74, 'lilton', '8dc');
 
 --
 -- Indexes for dumped tables
@@ -89,12 +89,12 @@ ALTER TABLE `user_names`
 -- AUTO_INCREMENT for table `user_comments`
 --
 ALTER TABLE `user_comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=179;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=194;
 --
 -- AUTO_INCREMENT for table `user_names`
 --
 ALTER TABLE `user_names`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -7,7 +7,7 @@ function url(){
     else{
         $protocol='http';
     }
-    return $protocol. "://" .$_SERVER['HTTP_HOST'].'/CodingChallenge/src/html/module/Comments/view/comments.php';
+    return $protocol. "://" .$_SERVER['HTTP_HOST'].'/CodingChallenge/src/';
 }
 
 return[

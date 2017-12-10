@@ -22,13 +22,19 @@ protected $usersDataBaseManager;
         $ret=['id'=>0,'name'=>''];
         if(isset($name) && strlen($name)>0) {
             /*check if name given is in hex*/
-            if (!ctype_xdigit($name)) {
+            if ($name[0]!== "{" || $name[strlen($name)-1]!== "}") {
                 /*if it is not in hex, then register the name if it is not in use yet*/
                 $hash_name = $this->getNameHash($name);
+                if(strlen($hash_name)>0)
                 $ret = $this->usersDataBaseManager->register($name, $hash_name);
-            } else
+            } else if($name[0]==='{' && $name[strlen($name)-1]==='}') {
                 /* else if given name is in hex, then get the record of the given hex hash*/
-                $ret = $this->usersDataBaseManager->getUserName($name);
+                $name =substr($name,1);
+                $name =substr($name,0,-1);
+                $name = trim($name);
+                if(strlen($name) > 0)
+                    $ret = $this->usersDataBaseManager->getUserName($name);
+            }
         }
         return $ret;
     }
@@ -40,6 +46,7 @@ protected $usersDataBaseManager;
      */
     protected function getNameHash($name){
         $ret=0;
+        $name=trim($name);
         for($i=0;$i<strlen($name);$i++){
             $ret+=(ord($name)*($i+1));
         }

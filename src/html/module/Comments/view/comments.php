@@ -8,7 +8,7 @@
 <div id="text_area_0_0">
     <span>Posting as:</span>
     <input id="name" title="posting_name" type="text">
-    <button onclick="setName()">SetName</button>
+    <button onclick="setName('name')">SetName</button>
     <br>
     <textarea autofocus title="Post A Comment" maxlength="1000" oninput="remaining_characters(this)" style="width: 350px"> </textarea>
     <br>
