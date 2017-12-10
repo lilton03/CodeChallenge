@@ -14,5 +14,6 @@ function setOrGetName($name){
         $status=200;
         $success=true;
     }
+    $usersManager->getUsersDataBaseManager()->close_connection();
     return['response'=>['data'=>$data,'status'=>$status,'success'=>$success]];
 }

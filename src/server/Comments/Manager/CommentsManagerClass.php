@@ -61,5 +61,12 @@ class CommentsManagerClass
         return $this->commentsDatabaseManager->getAllParentComments();
     }
 
+    /**
+ * @return DatabaseManagerCommentsClass
+    */public function getCommentsDatabaseManager()
+    {
+    return $this->commentsDatabaseManager;
+    }
+
 
 }

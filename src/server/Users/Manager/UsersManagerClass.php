@@ -52,4 +52,12 @@ protected $usersDataBaseManager;
         }
         return dechex($ret);
     }
+
+    /**
+     * @return DatabaseManagerUsersClass
+     */
+    public function getUsersDataBaseManager()
+    {
+        return $this->usersDataBaseManager;
+    }
 }

@@ -13,6 +13,7 @@ function getComments(){
         $status=200;
         $success=true;
     }
+    $commentsManager->getCommentsDatabaseManager()->close_connection();
     return ['response'=>['data'=>$comments,'status'=>$status,'success'=>$success]];
 }
 
@@ -30,6 +31,7 @@ function getChildComments($parentId){
         $status=200;
         $success=true;
     }
+    $commentsManager->getCommentsDatabaseManager()->close_connection();
     return ['response'=>['data'=>$comments,'status'=>$status,'success'=>$success]];
 }
 
@@ -49,6 +51,7 @@ function insertNewComment($comment, $level, $parent, $userId,$userName){
         $status=200;
         $success=true;
     }
+    $commentsManager->getCommentsDatabaseManager()->close_connection();
     return [
         'response'=>['data'=>['id'=>$result[0],'comment_time'=>$result[1],'comment_level'=>$result[2], 'parent_comment'=>$result[3],'children'=>0,
             'name'=>$userName,'comment_data'=>$result[5]
