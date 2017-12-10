@@ -1,0 +1,16 @@
+.time_view_replies{
+    font-family:monospace;
+    font-size: small;
+}
+
+.text_comment_nodes{
+    width:1000px;
+    height: 100px;
+}
+
+.li_comment_nodes{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
