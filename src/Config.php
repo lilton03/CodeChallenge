@@ -11,7 +11,13 @@ function url(){
 }
 
 return[
-    'base_url'=>url()
+    'base_url'=>url(),
+    'db_config'=>[
+         'hostname'=>'localhost',
+         'username'=>'root',
+         'password'=>'',
+         'database'=>'code_challenge'
+    ]
 ];
 
 

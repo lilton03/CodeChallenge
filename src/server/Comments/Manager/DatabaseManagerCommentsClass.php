@@ -1,5 +1,5 @@
 <?php
-require_once ('DatabaseCommonManagerClass.php');
+require_once ('../../Common/Manager/DatabaseCommonManagerClass.php');
 class DatabaseManagerCommentsClass extends DatabaseCommonManagerClass
 {
 

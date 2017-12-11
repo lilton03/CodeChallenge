@@ -1,13 +1,17 @@
 <?php
-require_once ('../Module/CommentsModule.php');
+require_once ('../../Common/Controller/CommonController.php');
+require_once ('../Factory/CommentsControllerFactoryClass.php');
 
-$CommentsController = new CommentsController();
-$route = isset($_GET['function'])?$_GET['function']:$_POST['function'];
-$CommentsController->{$route}();
-
-
-class CommentsController
+class CommentsController extends CommonController
 {
+    protected $commentsModule;
+
+    function __construct($commentsModule)
+    {
+        /** @var CommentsModule $commentsModule */
+        $this->commentsModule=$commentsModule;
+    }
+
     /**
      *Controller for inserting a comment
      */
@@ -18,7 +22,7 @@ class CommentsController
         $parent=$_POST['parent'];
         $userId=$_POST['user_id'];
         $userName=$_POST['user_name'];
-        print_r(json_encode(insertNewComment($comment,$level,$parent,$userId,$userName)));
+        print_r(json_encode($this->commentsModule->insertNewComment($comment,$level,$parent,$userId,$userName)));
     }
 
     /**
@@ -26,7 +30,7 @@ class CommentsController
      */
     function getCommentsController()
     {
-        print_r(json_encode(getComments()));
+        print_r(json_encode($this->commentsModule->getComments()));
     }
 
     /**
@@ -35,10 +39,11 @@ class CommentsController
     function getChildCommentsController()
     {
         $parentId=$_GET['parent_id'];
-        print_r(json_encode(getChildComments($parentId)));
+        print_r(json_encode($this->commentsModule->getChildComments($parentId)));
     }
-
 
 }
 
+$CommentsController = CommentsControllerFactoryClass::createController();
+$CommentsController->getFunction();
 

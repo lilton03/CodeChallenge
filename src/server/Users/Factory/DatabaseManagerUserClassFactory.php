@@ -1,5 +1,5 @@
 <?php
-require_once ($_SERVER['DOCUMENT_ROOT'].'/CodingChallenge/src/server/DataBase/Manager/DataBaseManagerUsersClass.php');
+require_once ("../Manager/DatabaseManagerUsersClass.php");
 
 class DatabaseManagerUserClassFactory
 {
@@ -8,7 +8,7 @@ class DatabaseManagerUserClassFactory
      */
     static function createDataBaseManager()
     {
-        $config = (include $_SERVER['DOCUMENT_ROOT'] . '/CodingChallenge/src/server/DataBase/Config.php');
+        $config = (include "../../../Config.php");
         /** @var mysqli $conn */
         $conn = new mysqli(
             $config['db_config']['hostname'],

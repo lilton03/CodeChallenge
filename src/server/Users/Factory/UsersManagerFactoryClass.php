@@ -1,5 +1,5 @@
 <?php
-require_once('../../DataBase/Factory/DatabaseManagerUserClassFactory.php');
+require_once('DatabaseManagerUserClassFactory.php');
 require_once('../Manager/UsersManagerClass.php');
 
 class UsersManagerFactoryClass

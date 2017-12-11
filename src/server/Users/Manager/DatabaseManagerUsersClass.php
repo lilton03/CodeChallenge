@@ -1,6 +1,6 @@
 <?php
 
-require_once ('DatabaseCommonManagerClass.php');
+require_once ('../../Common/Manager/DatabaseCommonManagerClass.php');
 class DatabaseManagerUsersClass extends DatabaseCommonManagerClass
 {
 

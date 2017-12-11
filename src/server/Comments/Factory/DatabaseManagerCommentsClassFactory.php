@@ -1,5 +1,5 @@
 <?php
-require_once ($_SERVER['DOCUMENT_ROOT'].'/CodingChallenge/src/server/DataBase/Manager/DatabaseManagerCommentsClass.php');
+require_once ('../Manager/DatabaseManagerCommentsClass.php');
 class DatabaseManagerCommentsClassFactory
 {
 
@@ -7,7 +7,7 @@ class DatabaseManagerCommentsClassFactory
      * @return DatabaseManagerCommentsClass
      */
     static function createDatabaseManager(){
-   $config = (include $_SERVER['DOCUMENT_ROOT'].'/CodingChallenge/src/server/DataBase/Config.php');
+   $config = (include '../../../Config.php');
     /** @var mysqli $conn */
     $conn = new mysqli(
            $config['db_config']['hostname'],
