@@ -4,9 +4,18 @@ function display_comments(parent_id,comment_data){
     var children;
     var ul;
     var style;
+    var comment_data_str;
     for(var i =0; i<comment_data.length;i++) {
         ul='';
         style='';
+        comment_data_str='';
+
+        for(var x=0;x<comment_data[i]['comment_data'].length;x++){
+            comment_data_str+=comment_data[i]['comment_data'][x];
+            if((x+1)%70===0)
+                comment_data_str+='<br>';
+        }
+        console.log(comment_data_str);
         comment_node +=
             '<li class="li_comment_nodes"  id="comment_id_' + comment_data[i]['id'] + '">' +
 
@@ -14,11 +23,11 @@ function display_comments(parent_id,comment_data){
 
             '<br>' +
 
-            '<textarea maxlength="1000" disabled class="text_comment_nodes">' +
+            '<div  class="text_comment_nodes">' +
 
-            comment_data[i]['comment_data'] +
+            comment_data_str +
 
-            '</textarea>' +
+            '</div>' +
 
             '<br>' + '<span class="time_view_replies">'+comment_data[i]['comment_time']+'</span>&nbsp;';
 
