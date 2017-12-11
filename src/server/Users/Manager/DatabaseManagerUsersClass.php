@@ -10,6 +10,8 @@ class DatabaseManagerUsersClass extends DatabaseCommonManagerClass
      * @return array
      */
     public function register($name, $hashName){
+        $name=$this->db->real_escape_string($name);
+        $hashName=$this->db->real_escape_string($hashName);
         $this->query("INSERT INTO user_names (name,hash_name) VALUES ('$name','$hashName')");
         $id=$this->db->insert_id;
         return ['id'=>$id,'name'=>$name,'hash_name'=>$hashName];

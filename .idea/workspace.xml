@@ -4,7 +4,10 @@
     <list default="true" id="99e297c9-226b-4feb-b480-5d82b7ad5172" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js" afterPath="$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/resources/CSS/CommentsCSS.css" afterPath="$PROJECT_DIR$/src/html/resources/CSS/CommentsCSS.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js" afterPath="$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php" afterPath="$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php" afterPath="$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php" afterPath="$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +29,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js">
+      <file leaf-file-name="UsersManagerClass.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state relative-caret-position="73">
+              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManagerUsersClass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding>
+                <marker date="1512964696736" expanded="true" signature="410:478" ph="INSERT INTO user_names... " />
+                <marker date="1512964696736" expanded="true" signature="764:806" ph="SELECT name,... user_names" />
+                <marker date="1512964696736" expanded="true" signature="764:807" ph="SELECT names... " />
+                <marker date="1512964696736" expanded="true" signature="764:812" ph="SELECT * FRO... user_names" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentsManagerClass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -39,15 +67,35 @@
       <file leaf-file-name="Displayers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <marker date="1512963234349" expanded="true" signature="936:942" ph=" " />
-                <marker date="1512963234349" expanded="true" signature="1160:1178" ph="..." />
-                <marker date="1512963234349" expanded="true" signature="1309:1315" ph=" " />
-                <marker date="1512963234349" expanded="true" signature="1551:1557" ph=" " />
-                <marker date="1512963234349" expanded="true" signature="3077:3083" ph=" " />
+                <marker date="1512966192903" expanded="true" signature="1016:1022" ph=" " />
+                <marker date="1512966192903" expanded="true" signature="1240:1258" ph="..." />
+                <marker date="1512966192903" expanded="true" signature="1389:1395" ph=" " />
+                <marker date="1512966192903" expanded="true" signature="1631:1637" ph=" " />
+                <marker date="1512966192903" expanded="true" signature="3157:3163" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/InputManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,64 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseCommonManagerClass.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentsControllerFactoryClass.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Comments/Factory/CommentsControllerFactoryClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommentsCSS.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/resources/CSS/CommentsCSS.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentsManagerClass.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -181,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/server/DataBase/Factory/DatabaseManagerCommentsClassFactory.php" />
         <option value="$PROJECT_DIR$/src/server/DataBase/Manager/DatabaseCommonManagerClass.php" />
         <option value="$PROJECT_DIR$/src/server/DataBase/Manager/DatabaseCommonManagerClass.php" />
-        <option value="$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php" />
         <option value="$PROJECT_DIR$/src/server/Common/Module/CommonModule.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Factory/CommentsModuleFactoryClass.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Module/CommentsModule.php" />
@@ -196,19 +190,20 @@
         <option value="$PROJECT_DIR$/src/server/Users/Factory/UserModuleFactoryClass.php" />
         <option value="$PROJECT_DIR$/src/server/Users/Factory/UserControllerFactoryClass.php" />
         <option value="$PROJECT_DIR$/src/server/Common/Controller/CommonController.php" />
-        <option value="$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Factory/CommentsControllerFactoryClass.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Controller/CommentsController.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Controller/CommentsController.php" />
         <option value="$PROJECT_DIR$/src/Config.php" />
         <option value="$PROJECT_DIR$/src/server/Users/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js" />
         <option value="$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
-        <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js" />
         <option value="$PROJECT_DIR$/src/html/resources/CSS/CommentsCSS.css" />
         <option value="$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php" />
         <option value="$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php" />
+        <option value="$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php" />
+        <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js" />
+        <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js" />
+        <option value="$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php" />
       </list>
     </option>
   </component>
@@ -271,6 +266,20 @@
               <item name="CodingChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingChallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CodingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingChallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CodingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingChallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -287,6 +296,13 @@
               <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Comments" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Manager" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CodingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingChallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Users" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -350,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109974000" />
+    <option name="totallyTimeSpent" value="114930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -415,19 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <marker date="1512960603186" expanded="true" signature="298:366" ph="INSERT INTO user_names... " />
-            <marker date="1512960603186" expanded="true" signature="652:694" ph="SELECT name,... user_names" />
-            <marker date="1512960603186" expanded="true" signature="652:695" ph="SELECT names... " />
-            <marker date="1512960603186" expanded="true" signature="652:700" ph="SELECT * FRO... user_names" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Users/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -551,16 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/InputManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -615,19 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Comments/Manager/DatabaseManagerCommentsClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <marker date="1512960603163" expanded="true" signature="301:576" ph="SELECT user_... user_names" />
-            <marker date="1512960603163" expanded="true" signature="1151:1322" ph="INSERT INTO user_comments... " />
-            <marker date="1512960603163" expanded="true" signature="1398:1465" ph="UPDATE user_... " />
-            <marker date="1512960603163" expanded="true" signature="1615:1877" ph="SELECT user_... user_names" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Comments/Module/CommentsModule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -668,27 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <marker date="1512960603186" expanded="true" signature="298:366" ph="INSERT INTO user_names... " />
-            <marker date="1512960603186" expanded="true" signature="652:694" ph="SELECT name,... user_names" />
-            <marker date="1512960603186" expanded="true" signature="652:695" ph="SELECT names... " />
-            <marker date="1512960603186" expanded="true" signature="652:700" ph="SELECT * FRO... user_names" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/module/Comments/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -713,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -737,9 +688,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Comments/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
+        <state relative-caret-position="986">
           <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding />
         </state>
@@ -753,35 +723,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Comments/Controller/CommentsController.php">
+    <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/InputManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/server/Comments/Manager/DatabaseManagerCommentsClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <marker date="1512960603163" expanded="true" signature="301:576" ph="SELECT user_... user_names" />
+            <marker date="1512960603163" expanded="true" signature="1151:1322" ph="INSERT INTO user_comments... " />
+            <marker date="1512960603163" expanded="true" signature="1398:1465" ph="UPDATE user_... " />
+            <marker date="1512960603163" expanded="true" signature="1615:1877" ph="SELECT user_... user_names" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="872" column="9" lean-forward="false" selection-start-line="872" selection-start-column="9" selection-end-line="872" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <marker date="1512963234349" expanded="true" signature="936:942" ph=" " />
-            <marker date="1512963234349" expanded="true" signature="1160:1178" ph="..." />
-            <marker date="1512963234349" expanded="true" signature="1309:1315" ph=" " />
-            <marker date="1512963234349" expanded="true" signature="1551:1557" ph=" " />
-            <marker date="1512963234349" expanded="true" signature="3077:3083" ph=" " />
+            <marker date="1512966192903" expanded="true" signature="1016:1022" ph=" " />
+            <marker date="1512966192903" expanded="true" signature="1240:1258" ph="..." />
+            <marker date="1512966192903" expanded="true" signature="1389:1395" ph=" " />
+            <marker date="1512966192903" expanded="true" signature="1631:1637" ph=" " />
+            <marker date="1512966192903" expanded="true" signature="3157:3163" ph=" " />
           </folding>
         </state>
       </provider>
@@ -796,8 +776,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Comments/Manager/CommentsManagerClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        <state relative-caret-position="-97">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/DatabaseManagerUsersClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1512964696736" expanded="true" signature="410:478" ph="INSERT INTO user_names... " />
+            <marker date="1512964696736" expanded="true" signature="764:806" ph="SELECT name,... user_names" />
+            <marker date="1512964696736" expanded="true" signature="764:807" ph="SELECT names... " />
+            <marker date="1512964696736" expanded="true" signature="764:812" ph="SELECT * FRO... user_names" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Users/Manager/UsersManagerClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding />
         </state>
       </provider>

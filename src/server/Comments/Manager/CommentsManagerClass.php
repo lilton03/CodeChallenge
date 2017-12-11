@@ -17,7 +17,7 @@ class CommentsManagerClass
      * @return string
      */
     private function cleanComment($comment){
-        return strip_tags($comment);
+        return htmlentities($comment);
     }
 
     /**

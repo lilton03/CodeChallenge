@@ -66,6 +66,7 @@ function userNameSet(name){
                 'name': name
             },
             function (data) {
+            console.log(data);
                 var name = JSON.parse(data)['response'];
                 if (name['status'] === 200) {
                     name = name['data'];

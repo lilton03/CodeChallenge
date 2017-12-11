@@ -21,19 +21,29 @@ protected $usersDataBaseManager;
     public function setName($name){
         $ret=['id'=>0,'name'=>''];
         if(isset($name) && strlen($name)>0) {
+            $functionName='';
+            $hash_name='';
             /*check if name given is in hex*/
             if ($name[0]!== "{" || $name[strlen($name)-1]!== "}") {
                 /*if it is not in hex, then register the name if it is not in use yet*/
+                $name=htmlentities($name);
                 $hash_name = $this->getNameHash($name);
-                if(strlen($hash_name)>0)
-                $ret = $this->usersDataBaseManager->register($name, $hash_name);
+                $functionName='register';
             } else if($name[0]==='{' && $name[strlen($name)-1]==='}') {
                 /* else if given name is in hex, then get the record of the given hex hash*/
                 $name =substr($name,1);
                 $name =substr($name,0,-1);
                 $name = trim($name);
-                if(strlen($name) > 0)
-                    $ret = $this->usersDataBaseManager->getUserName($name);
+                $functionName='getUserName';
+            }
+            if(strlen($name) > 0 && $functionName!=='') {
+                if($hash_name!=='') {
+                    $ret = $this->usersDataBaseManager->{$functionName}($name, $hash_name);
+                    $ret['name']=$name;
+                    $ret['hash_name']=$hash_name;
+                }
+                else
+                $ret = $this->usersDataBaseManager->{$functionName}($name);
             }
         }
         return $ret;
@@ -46,7 +56,6 @@ protected $usersDataBaseManager;
      */
     protected function getNameHash($name){
         $ret=0;
-        $name=trim($name);
         for($i=0;$i<strlen($name);$i++){
             $ret+=(ord($name)*($i+1));
         }
