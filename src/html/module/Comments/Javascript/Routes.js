@@ -72,7 +72,7 @@ function userNameSet(name){
                     name = name['data'];
                     localStorage.setItem('id',JSON.stringify(name['id']));
                     localStorage.setItem('name',JSON.stringify(name['name']));
-                    console.log(name);
+                    document.getElementById('name').value=name['name'];
                     alert('Your Hash Name is : '+name['hash_name']+' Use this to retrieve your Name by setting this in the input field below for your next session,' +
                         'Please remember your hash name it is the only way to retrieve your username');
                 }

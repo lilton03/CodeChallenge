@@ -39,8 +39,6 @@ protected $usersDataBaseManager;
             if(strlen($name) > 0 && $functionName!=='') {
                 if($hash_name!=='') {
                     $ret = $this->usersDataBaseManager->{$functionName}($name, $hash_name);
-                    $ret['name']=$name;
-                    $ret['hash_name']=$hash_name;
                 }
                 else
                 $ret = $this->usersDataBaseManager->{$functionName}($name);
@@ -57,7 +55,7 @@ protected $usersDataBaseManager;
     protected function getNameHash($name){
         $ret=0;
         for($i=0;$i<strlen($name);$i++){
-            $ret+=(ord($name)*($i+1));
+            $ret+=(ord($name[$i])*($i+1));
         }
         return dechex($ret);
     }
