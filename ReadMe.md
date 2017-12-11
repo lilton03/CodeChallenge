@@ -62,14 +62,17 @@ src/server/
             
    #Controller
     
+        
         All End points that can be levereage in the front end, through
         Restful fashion
    
    #Factory
-        Factory classess for all the Class Manager
+        
+        Factory classess for all the Classes
                  
                 
    #Manager
+        
         All the manager classes
 
    #Module

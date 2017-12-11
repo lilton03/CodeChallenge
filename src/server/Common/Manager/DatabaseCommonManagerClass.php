@@ -53,6 +53,9 @@ class DatabaseCommonManagerClass
         return $this->queryResult;
     }
 
+    /**
+     *
+     */
     public function close_connection(){
         $this->db->close();
     }
