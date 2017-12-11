@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99e297c9-226b-4feb-b480-5d82b7ad5172" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php" afterPath="$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseCommonManagerClass.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseCommonManagerClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="719">
@@ -100,12 +99,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="665">
-                <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+              <first_editor relative-caret-position="240">
+                <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -185,8 +184,8 @@
         <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Routes.js" />
         <option value="$PROJECT_DIR$/src/html/module/Comments/Javascript/Displayers.js" />
         <option value="$PROJECT_DIR$/src/html/resources/CSS/CommentsCSS.css" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/server/Common/Manager/DatabaseCommonManagerClass.php" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -330,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106755000" />
+    <option name="totallyTimeSpent" value="107123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -755,17 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Common/Controller/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -779,6 +767,17 @@
         <state relative-caret-position="719">
           <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

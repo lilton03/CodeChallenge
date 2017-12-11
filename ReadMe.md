@@ -41,7 +41,7 @@ The re route to the main page is inside index.php
        Factory Method    
 
     
-#Folders    
+#Folders:    
 src/html/
         
         All front end files
@@ -58,24 +58,19 @@ src/server/
         All backend Code
         
         
-#Module Structure:
+#Server folders Structure:
             
-   #Controller
-    
-        
+   #Controller-
         All End points that can be levereage in the front end, through
         Restful fashion
    
-   #Factory
-        
+   #Factory-
         Factory classess for all the Classes
                  
                 
-   #Manager
-        
-        All the manager classes
+   #Manager-
+       All the manager classes
 
-   #Module
-   
+   #Module-
         Contains all the modules, modules connect the Controllers with the Manger
         
