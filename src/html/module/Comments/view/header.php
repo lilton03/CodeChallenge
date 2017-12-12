@@ -1,5 +1,5 @@
 <?php
-$config=(include $_SERVER['DOCUMENT_ROOT'].'/CodingChallenge/src/Config.php');
+$config=(include'../../../../Config.php');
 ?>
 <script type="text/javascript">
     var base_url='<?php echo $config['base_url'];?>';
